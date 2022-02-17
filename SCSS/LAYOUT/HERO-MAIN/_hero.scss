@@ -1,0 +1,44 @@
+.hero {
+  .overtitle {
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #ffffff;
+  }
+  .title {
+    font-size: 154px;
+    letter-spacing: 0.07em;
+    color: #ffffff;
+  }
+  .subtitle {
+    margin-bottom: 10px;
+    font-size: 60px;
+    letter-spacing: 0.4em;
+    color: #ffffff;
+  }
+  .subtitle-text {
+    max-width: 580px;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  }
+}
+.scroll-link {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.scroll-btn {
+  display: block;
+  width: 61px;
+  height: 61px;
+  border-radius: 50px;
+  fill: #ffffff;
+}
+.scroll {
+  width: 61px;
+  height: 61px;
+  fill: #ffffff;
+}
