@@ -1,11 +1,17 @@
-.about-left__title::before {
+.about-box__list {
+  display: flex;
+  justify-content: space-between;
+}
+.about-box__title::before {
   display: block;
   content: '';
-  width: 100px;
+  width: 600px;
   height: 1px;
   background-color: #000000;
+
+  //   transform: rotate(-90deg);
 }
-.about-left__title {
+.about-box__title {
   margin-bottom: 68px;
   .title {
     font-weight: 700;
@@ -13,6 +19,14 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #14274a;
+  }
+}
+.about-box__item {
+  .subtitle-text {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
   }
 }
 .about-btn {
