@@ -250,7 +250,7 @@ body {
 }
 
 .about-us {
-  padding: 83px;
+  padding: 83px 0 0 0;
 }
 
 .about-us .about {
@@ -280,9 +280,11 @@ body {
 .about-box__title::before {
   display: block;
   content: '';
-  width: 600px;
+  width: 433px;
   height: 1px;
   background-color: #000000;
+  -webkit-transform: rotate(-90deg) translateX(-50%) translateY(calc((-433px / 2) - 48px));
+          transform: rotate(-90deg) translateX(-50%) translateY(calc((-433px / 2) - 48px));
 }
 
 .about-box__title {
@@ -297,6 +299,14 @@ body {
   color: #14274a;
 }
 
+.about-box:not(:last-child) {
+  margin-bottom: 68px;
+}
+
+.about-box__item {
+  margin-right: 100px;
+}
+
 .about-box__item .subtitle-text {
   font-weight: 400;
   font-size: 25px;
@@ -308,21 +318,89 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 30px;
+  width: 263px;
+  height: 63px;
+  border-radius: 10px;
+  background-color: #e0b973;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 263px;
-  height: 63px;
-  align-items: center;
-  border-radius: 10px;
-  background-color: #e0b973;
+}
+
+.about-btn .about-btn__link {
+  display: block;
   font-family: Montserrat;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.05em;
   color: #ffffff;
+}
+
+.review-container {
+  padding: 115px 561px;
+}
+
+.review {
+  text-align: center;
+}
+
+.review .title {
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 26px;
+}
+
+.review__title {
+  margin-bottom: 23px;
+}
+
+.review-subtitle {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #14274a;
+  margin-bottom: 19px;
+}
+
+.review-name {
+  color: #14274a;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+}
+
+.review-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.review-list:not(:last-child) {
+  margin-right: 15px;
+}
+
+.review-item {
+  margin-right: 15px;
+}
+
+.review-icon {
+  width: 50px;
+  height: 50px;
+  fill: #141414;
 }
 /*# sourceMappingURL=main.css.map */

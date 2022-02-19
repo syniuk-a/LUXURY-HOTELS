@@ -1,0 +1,15 @@
+.review-list {
+  display: flex;
+  justify-content: center;
+}
+.review-list:not(:last-child) {
+  margin-right: 15px;
+}
+.review-item {
+  margin-right: 15px;
+}
+.review-icon {
+  width: 50px;
+  height: 50px;
+  fill: rgb(20, 20, 20);
+}
