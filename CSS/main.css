@@ -413,8 +413,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .logo-footer {
@@ -475,5 +476,43 @@ body {
   height: 19px;
   fill: #f7f7f7;
   margin-right: 20px;
+}
+
+.container__title {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.footer-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 29px;
+}
+
+.footer-form__input {
+  background-color: transparent;
+  color: #e0b973;
+  border: 1px solid;
+  border-radius: 4px 0 0 4px;
+  width: 280px;
+  height: 52px;
+  padding: 15px 26px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.footer-submit-btn {
+  background-color: #e0b973;
+  width: 80px;
+  height: 52px;
+  border-radius: 0 4px 4px 0;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 /*# sourceMappingURL=main.css.map */
