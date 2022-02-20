@@ -1,7 +1,5 @@
 .main-btn {
-  //   position: relative;
   display: flex;
-  margin: 108px auto 80px;
   width: 276px;
   height: 68px;
   color: #ffffff;
@@ -12,6 +10,9 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 1.2;
+  .hero & {
+    margin: 108px auto 80px;
+  }
 }
 .main-btn-icon {
   margin: 20px;
