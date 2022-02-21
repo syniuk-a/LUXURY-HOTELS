@@ -1,0 +1,61 @@
+.section-contact__form {
+  padding-bottom: 460px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.contact-nav__link {
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #14274a;
+}
+.contact-map__view {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.2;
+  color: #14274a;
+  margin: 28px 0 58px 0;
+}
+// .contact-form__list {
+//   display: flex;
+// }
+.info-input__label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Montserrat;
+  font-size: 25px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #14274a;
+}
+.info-input__text {
+  width: 570px;
+  height: 78px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  padding: 0 10px;
+  font-size: 25px;
+  color: #14274a;
+}
+.info-massage {
+  padding-top: 10px;
+  width: 570px;
+  height: 352px;
+  resize: none;
+}
+.contact-btn__send {
+  width: 145px;
+  height: 78px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+
+  color: #ffffff;
+  background: #e0b973;
+  border-radius: 10px;
+}

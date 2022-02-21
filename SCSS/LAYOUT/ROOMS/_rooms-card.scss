@@ -1,0 +1,52 @@
+.rooms-card__list:last-child {
+  margin-bottom: -81px;
+}
+.rooms-card__item {
+  border: 1px solid;
+  border-radius: 0 0 15px 15px;
+  margin-bottom: 81px;
+}
+.rooms-card__foto {
+  max-width: 100%;
+}
+.rooms-card__menu-icon {
+  margin-right: 40px;
+  width: 40px;
+  height: 40px;
+  fill: rgba(224, 185, 115, 1);
+}
+.rooms-card__title {
+  padding: 41px 0;
+  background-color: rgba(20, 39, 74, 1);
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+}
+.rooms-card__menu-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 79px 162px;
+}
+.rooms-card__menu {
+  display: flex;
+
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.6;
+  color: #14274a;
+}
+.rooms-card__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #ffffff;
+}
