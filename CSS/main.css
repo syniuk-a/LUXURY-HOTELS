@@ -407,6 +407,7 @@ body {
 }
 
 .footer {
+  position: relative;
   padding: 80px 172px;
   background-color: #14274a;
 }
@@ -418,6 +419,18 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.injection-footer {
+  position: absolute;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  background-color: #14274a;
+  top: 0;
+  left: 50%;
+  -webkit-transform: rotate(45deg) translateX(-50%);
+          transform: rotate(45deg) translateX(-50%);
 }
 
 .logo-footer {
