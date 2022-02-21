@@ -1,0 +1,29 @@
+.facility-galary__list:last-child {
+  margin-bottom: -180px;
+}
+.facility-img__item {
+  position: relative;
+  margin-bottom: 180px;
+}
+// .facility-img {
+//   outline-style: none;
+// }
+.facility-img__title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  height: 75px;
+  width: 684px;
+  background-color: #fff;
+  //   outline-style: none;
+
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.22;
+  color: #14274a;
+}
